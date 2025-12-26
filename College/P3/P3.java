@@ -19,7 +19,7 @@ public static void main(String[] args) {
         System.out.print("Введіть логічне значення (true/false): ");
         boolean b = sc.nextBoolean();
 
-        System.out.println("\n=== Форматований вивід ===");
+        System.out.println("\n Форматований вивід ");
 
         System.out.println("1) int (десяткова): " + i);
         System.out.println("2) double: " + d);

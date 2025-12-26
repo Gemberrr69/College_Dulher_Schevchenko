@@ -5,8 +5,8 @@ public class P2 {
 
     public static void main(String[] args) {
 
-        // ====== 1) Інформація про примітивні типи ======
-        System.out.println("=== Примітивні типи даних ===");
+        // Інформація про примітивні типи
+        System.out.println("Примітивні типи даних");
 
         System.out.println("byte:");
         System.out.println("  Розмір: " + Byte.BYTES + " байт");
@@ -44,10 +44,9 @@ public class P2 {
         System.out.println("  Макс: " + (int) Character.MAX_VALUE);
 
         System.out.println("boolean:");
-        System.out.println("  Розмір: залежить від JVM");
         System.out.println("  Значення: true / false");
 
-        // ====== 2) Зчитування та перетворення ======
+        // 2) Зчитування та перетворення
         Scanner sc = new Scanner(System.in);
 
         // int
